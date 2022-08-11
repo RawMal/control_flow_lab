@@ -19,8 +19,7 @@ public class SecretNumber {
         } else if (Secret_Number > 13){
             System.out.println("Oh dear, you're shooting far too high!");
         }
-
-//  LOOP
+        
 
 
     }
