@@ -8,10 +8,12 @@ public class SecretNumber {
 
 // Collect user input/Create scanner object
         Scanner reader = new Scanner(System.in);
-        String SecretNumber = reader.nextLine();
+        int Secret_Number = Integer.parseInt(reader.nextLine());
 
 // Create response for when secret number is found
-
+        if (Secret_Number==(13)){
+            System.out.println("ELEMENTARY WATSON, YOU FOUND IT!!!");
+        }
 // Create ranges and response for wrong number
 
 // LOOP
