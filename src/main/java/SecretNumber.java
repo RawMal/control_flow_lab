@@ -8,16 +8,18 @@ public class SecretNumber {
 
 //  Collect user input/Create scanner object
         Scanner reader = new Scanner(System.in);
-        int Secret_Number = Integer.parseInt(reader.nextLine());
+        int secret_Number = Integer.parseInt(reader.nextLine());
 
 //  Create response for when secret number is found
-        if (Secret_Number==(13)){
+        if (secret_Number==(13)){
             System.out.println("ELEMENTARY WATSON, YOU FOUND IT!!!");
 //  Create ranges and response for wrong number
-        } else if (Secret_Number < 13){
+        } else if (secret_Number < 13){
             System.out.println("Not quite old boy, you fell too short!");
-        } else if (Secret_Number > 13){
+        } else if (secret_Number > 13){
             System.out.println("Oh dear, you're shooting far too high!");
+        }if (reader.nextInt() == 13){
+            main(null);
         }
 
 
