@@ -23,7 +23,7 @@ public class WhatToWear {
 
           //CLOUDY
         } else if (weatherCondition.equalsIgnoreCase("cloudy") && tempReading <= 30) {
-            System.out.println("This is the U.K, you should be used to it by now...");
+            System.out.println("This is the U.K, you should be used to it by now....");
 
          //WINDY
         } else if (weatherCondition.equalsIgnoreCase("windy") && tempReading <= 16) {
