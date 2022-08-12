@@ -20,9 +20,10 @@ public class WhatToWear {
             System.out.println("Just an Umbrella it is too warm for a coat!");
         } else if (weatherCondition.equalsIgnoreCase("raining") && tempReading <= 14) {
             System.out.println("Raincoat and Wellie Boots, Don't forget your umbrella!");
+        }
 
             //SNOW
-            
+
 
     }
 }

@@ -16,8 +16,10 @@ public class SecretNumber {
 //  Create ranges and response for wrong number
         } else if (secret_Number < 13){
             System.out.println("Not quite old boy, you fell too short!");
+            main(null);
         } else if (secret_Number > 13){
             System.out.println("Oh dear, you're shooting far too high!");
+            main(null);
         }if (reader.nextInt() == 13){
             main(null);
         }
