@@ -12,26 +12,28 @@ public class WhatToWear {
         //SUNNY
         if (weatherCondition.equalsIgnoreCase("sunny") && tempReading >= 17){
             System.out.println("Shorts and Shades, Suns out guns out!");
-        } else if (weatherCondition.equalsIgnoreCase("Sunny") && tempReading <= 16) {
-            System.out.println("Wear a nice Jumper or a thin jacket if it's not summer!");
 
-            //RAIN
-    } else if (weatherCondition.equalsIgnoreCase("raining") && tempReading >= 14) {
-            System.out.println("Just an Umbrella it is too warm for a coat!");
+          //RAIN
         } else if (weatherCondition.equalsIgnoreCase("raining") && tempReading <= 14) {
             System.out.println("Raincoat and Wellie Boots, Don't forget your umbrella!");
-        }
 
-            //SNOW
+          //SNOW
+        } else if (weatherCondition.equalsIgnoreCase("snowing") && tempReading <= 5) {
+            System.out.println("BRRRR, I suggest a Scarf, big puffer jacket, boots and gloves!");
+
+          //CLOUDY
+        } else if (weatherCondition.equalsIgnoreCase("cloudy") && tempReading <= 30) {
+            System.out.println("This is the U.K, you should be used to it by now...");
+
+         //WINDY
+        } else if (weatherCondition.equalsIgnoreCase("windy") && tempReading <= 16) {
+            System.out.println("Wind breaker and a cap will do you nice.");
+        }
 
 
     }
 }
 
-  //if (weatherAdvice.equals("sunny")){
-   //       System.out.println("Shorts and Shades, Suns out guns out!");
-   //       } else if (weatherAdvice.equals("raining")){
-    //      System.out.println("Raincoat and Wellie Boots, Don't forget your umbrella!");
-  //        } else if (weatherAdvice.equals("snowing")) {
-   //       System.out.println("I suggest a Scarf, big puffer jacket, boots and gloves!");
-   //      }
+
+
+
